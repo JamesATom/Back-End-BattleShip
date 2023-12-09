@@ -74,9 +74,15 @@ We would like to thank all the contributors who have helped to build this game.
 
 Citations:
 [1] https://github.com/zeke/package-json-to-readme
+
 [2] https://stackoverflow.com/questions/62575382/relative-link-from-readme-md-to-another-file-in-package-rendered-in-npmjs
+
 [3] https://blog.bitsrc.io/writing-the-perfect-reademe-for-your-node-library-2d5f24dc1c06
+
 [4] https://docs.npmjs.com/creating-a-package-json-file/
+
 [5] https://docs.npmjs.com/about-package-readme-files/
+
 [6] https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+
 [7] https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql/
