@@ -7,11 +7,10 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "test": "jest",
-    "dev": "nodemon index.js",
-    "start": "node src/index.ts",
+    "start": "node build/index.js",
     "start:dev": "cross-env nodemon --watch 'src/**/*' -e 'ts' --exec 'ts-node' src/index.ts",
-    "start:prod": "node src/index.ts"
-  },
+    "heroku-postbuild": "npm run build"
+  },  
   "keywords": [],
   "author": "",
   "license": "ISC",
