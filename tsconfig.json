@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
       "target": "es2018",
-      "module": "commonjs",
+      "module": "NodeNext",
       "strict": true,
       "esModuleInterop": true,
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
-      "moduleResolution": "node",
+      "moduleResolution": "NodeNext",
       "resolveJsonModule": true,
       "outDir": "build"
     },
