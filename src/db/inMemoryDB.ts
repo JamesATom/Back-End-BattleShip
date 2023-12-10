@@ -34,10 +34,6 @@ export class InMemoryDatabase {
         this.users.get(username)!.isReady = isReady;
     }
 
-
-
-
-
     public doesRoomExist(roomID: string): boolean {
         return this.rooms.has(roomID);
     }
@@ -165,4 +161,9 @@ export class InMemoryDatabase {
         }
         return winner;
     }
+
+    public clearDatabase() {
+        this.users.clear();
+        this.rooms.clear();
+    }    
 }
