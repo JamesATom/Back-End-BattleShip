@@ -6,7 +6,8 @@
   "scripts": {
     "build": "rimraf ./build && tsc",
     "test": "jest",
-    "start": "nodemon src/index.ts",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "start:dev": "cross-env nodemon --watch 'src/**/*' -e 'ts' --exec 'ts-node' src/index.ts",
     "start:prod": "node src/index.ts"
   },
