@@ -10,7 +10,7 @@ export class Router {
     public route(req: http.IncomingMessage, res: http.ServerResponse) {
         const { method, url } = req;
         //https://front-end-battle-ship-2nef.vercel.app
-        res.setHeader('Access-Control-Allow-Origin', 'https://front-end-battle-ship-2nef.vercel.app'); 
+        res.setHeader('Access-Control-Allow-Origin', '*'); 
         res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
         res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
         
