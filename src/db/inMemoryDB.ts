@@ -15,6 +15,9 @@ export class InMemoryDatabase {
     }
 
     public removeUser(username: string) {
+        if (!this.users.has(username)) {
+            return;
+        }
         this.users.delete(username);
     }
 
