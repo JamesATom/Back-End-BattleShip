@@ -174,6 +174,13 @@ export class WebSocketServer {
                         });
                     }
                     break;
+                
+                case MESSAGE_TYPES.DELETE_USER_AND_ROOM:
+                    this.db.removeUser(username);
+                    if (roomID != -1) {
+                        this.db.removeRoom(roomID);
+                    }
+                    break;
 
                 default:
                     ws.send(JSON.stringify({ message: 'Invalid request' }));
